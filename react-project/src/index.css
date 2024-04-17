@@ -1,11 +1,14 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(15, 15, 15, 0.87);
+  background-color: #f0f0f0; /* Fallback background color */
+  background-image: url("src/assets/sun.jpg");
+  background-size: cover;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,8 +16,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 a {
-  font-weight: 500;
+  font-weight: 900;
   color: #646cff;
   text-decoration: inherit;
 }
@@ -24,8 +28,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  
+  
   min-width: 320px;
   min-height: 100vh;
 }
