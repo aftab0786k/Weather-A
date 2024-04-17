@@ -10,9 +10,9 @@ import "./InfoBox.css"
 
 export default function InfoBOx({info}){
      const INIT_URL ="https://images.unsplash.com/photo-1528844573475-9240ba9c0f5c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHVzdHklMjB3ZWF0aGVyfGVufDB8fDB8fHww";
-     const HOT_URL ="src/assets/sun.jpg";
-     const  COLD_URL ="src/assets/cold.jpg";
-     const  RAINY_URL ="src/assets/rain.jpg";
+     const HOT_URL ="public/sun.jpg";
+     const  COLD_URL ="public/cold.jpg";
+     const  RAINY_URL ="public/rain.jpg";
 
     // let info ={
     //          city: "Delhi",
